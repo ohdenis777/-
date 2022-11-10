@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(154, 147, 147);
+}
+
+p {
+  margin: 0;
+}
+
+.wrap {
+  background-color: white;
+  width: 375px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-content: center;
+}
+
+.instagram {
+  width: 100%;
+  height: 550px;
+  border: 1px solid black;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 375px 1fr;
+  grid-template-areas:
+    "header"
+    "img"
+    "footer";
+
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+
+}
+
+.header {
+  grid-area: header;
+  width: auto;
+  height: auto;
+
+  margin: 10px 5px;
+  font-weight: bold;
+  /* p태그에 글씨 굵기 */
+}
+
+.header-left {
+  float: left;
+
+  display: flex;
+
+  align-items: center;
+}
+
+.imagen {
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 10px;
+
+
+}
+
+.header-right {
+  float: right;
+  display: flex;
+
+  align-items: center;
+}
+
+.right-menu {
+  cursor: pointer;
+}
+
+.img {
+  clear: both;
+  grid-area: img;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  grid-area: footer;
+  width: 100%;
+  height: 100%;
+}

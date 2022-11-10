@@ -29,10 +29,12 @@ p {
 
   display: inline-block;
   font-size: 15px;
+}
 
-  float: left;
 
 
+.red22 {
+  display: flex;
 }
 
 .rifgt {
@@ -42,16 +44,9 @@ p {
 
   display: inline-block;
   font-size: 15px;
-
-  float: left;
-  /* 좌우로 정렬하고 싶을때 
-  1층에 있는 태그에는 clear both를 사용해야
-  자기 자리로감.*/
 }
 
 .footer {
-
-  clear: both;
 
 
   width: 400px;
