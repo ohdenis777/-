@@ -1,0 +1,63 @@
+.container {
+  width: 400px;
+  height: 600px;
+  border: 5px dashed black;
+  background-color: aqua;
+
+  color: aliceblue;
+
+  font-size: 0px;
+}
+
+p {
+  margin: 0px
+    /* container박스 안에 꽉 채우기 위해. */
+}
+
+
+.header {
+  width: 400px;
+  height: 200px;
+  background-color: red;
+  font-size: 15px;
+}
+
+.left {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+
+  display: inline-block;
+  font-size: 15px;
+
+  float: left;
+
+
+}
+
+.rifgt {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+
+  display: inline-block;
+  font-size: 15px;
+
+  float: left;
+  /* 좌우로 정렬하고 싶을때 
+  1층에 있는 태그에는 clear both를 사용해야
+  자기 자리로감.*/
+}
+
+.footer {
+
+  clear: both;
+
+
+  width: 400px;
+  height: 200px;
+  background-color: rgb(106, 9, 77);
+  font-size: 15px;
+
+
+}
